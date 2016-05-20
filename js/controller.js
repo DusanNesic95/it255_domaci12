@@ -20,6 +20,10 @@ myapp.controller('mainController', ['$scope', function($scope) {
 		{
 			link : "Ulogujte se",
 			path : "#login"
+		},
+		{
+			link : "Dodavanje soba",
+			path : "#sobe"
 		}
 	];
 }]);

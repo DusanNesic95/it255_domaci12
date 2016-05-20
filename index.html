@@ -164,6 +164,26 @@
         </div>
     </section>
 
+    <section id="sobe" class="sobe-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                <h1>Dodavanje soba</h1>
+                <h4>Unesite podatke o sobi kako biste je dodali</h4>
+                    <form class="form-group" action="php/sobe.php" method="POST">
+                        <label for="brojSobe">Unesite broj sobe:</label>
+                        <input type="text" class="form-control" id="brojSobe" name="brojSobe"></input>
+                        <label for="brojKreveta">Unesite broj kreveta:</label>
+                        <input type="text" class="form-control" id="brojKreveta" name="brojKreveta"></input>
+                        <input type="text" class="form-control hidden" id="rezervisano" name="rezervisano" value="0"></input>
+                        <br>
+                        <input type="submit" name="submit" value="Ulogujte se!" class="form-control"></input>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <!-- jQuery -->
     <script src="js/jquery.js"></script>
 

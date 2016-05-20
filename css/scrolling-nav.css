@@ -69,6 +69,14 @@ html {
     padding-bottom: 130px;
 }
 
+.sobe-section {
+    height: auto;
+    padding-top: 150px;
+    text-align: center;
+    background-color: #fff;
+    padding-bottom: 130px;
+}
+
 .navbar-default {
     background-color: #C8DEE6;
     border-color: white;
